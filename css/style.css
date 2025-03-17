@@ -1,0 +1,17 @@
+/* Selettori di tag */
+h1{
+    color: green;
+}
+
+/* Selettore di classe */
+.section-title{
+color: blue;
+}
+.secondary-title{
+    color: aqua;
+}
+
+/* Selettori di id */
+#title-id{
+    color: blueviolet;
+}

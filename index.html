@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <!--
@@ -13,6 +14,39 @@
     - aggingendo il tag style in head al documento e mettendo lì tutte le regole: non si usa quasi mai
     - Come foglio di stile direttamente collegatoa ttraverso link alla pagina html in head
     
+    Selettori: ci sono vari tipi, useremmo principalmente classe che verrà data come attributo al tag e poi selezionato in css con .nomeclasse:{}
+    Possiamo usare anche id, in modo analogo e selezionarlo in css con #nomeid
+    Un tag può avere sia una classe che un id. Id avrò sempre la priorità su class
+    Possiamo selezionare direttamente il tag
+    Possiamo avere più classi nello stesso tag inserite con un unico attributo class e le classi divise dallo spazio 
+
+    Colori: RGB: red, green, Blu range da 0 a 255
+            RGBA: come rgb ma prevede anche la trasparenza
+            nei colori cerchiamo sempre di usare o RGB o esadecimale
+            HEX; esadecimale #zzzzzz da A ad F
+
+    Font: font serif: con le decorazioni
+          sans serif: senza grazie, font più semplici
+          Ci sono diverse familie di font
+          Mettiamo 3 tipi di font per essere sicuri che il browser ne trova almeno 1 dei 3 dal più complesso al più semplice (comune)
+          Per aggingere un font da rete bisogna aggingere il link al head
+          Font-family: La famighlia del font
+          Font-size: la grandezza
+          Font-weight: lo spessore in centinaia
+
+    Il Testo: text-align: per alineare il testo
+              text-decoration: per le decorazione tipo sottolineato, tagliato, linea sopra
+
+
+    Background: 
     -->
+<h1>Hello World</h1>
+<h2 class="section-title">Altro titolo</h2>
+<h2 class="secondary-title">titolo secondario</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste error delectus molestias doloribus iusto voluptatem, similique repudiandae quia corrupti labore natus at vel reprehenderit voluptate, quod quo ipsum cumque sed.</p>
+<h2 class="section-titple">Seconda sezione</h2>
+<h2 id="title-id">Titolo con id</h2>
+
+
 </body>
 </html>
