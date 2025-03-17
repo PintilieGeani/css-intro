@@ -15,3 +15,15 @@ color: blue;
 #title-id{
     color: blueviolet;
 }
+
+.sqare{
+    height: 150px;
+    width: 150px;
+}
+
+.banner-section{
+    height: 300px;
+    background-color: lightblue;
+    background-image: url(../img/IMG_20200905_213641.jpg);
+    
+}

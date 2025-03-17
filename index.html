@@ -38,7 +38,24 @@
               text-decoration: per le decorazione tipo sottolineato, tagliato, linea sopra
 
 
-    Background: 
+    Background: background-color: colore del bg
+                background-image: per inserire immagine
+                background-size: per definire la brandezza dello sfondo (contenuto, a riempimento, percentuale)
+                background-repeat: per quante volte ripeterlo
+                background-position per posizionare
+                Vedere proprietà su w3school, developer.mozilla
+
+
+
+
+    Dimensioni: height e width
+                height: l'alteza
+                width: larghezza
+                Il browser di per se ha sempre una larghezza ma non l'altezza di default. Quindi quando mettiamo certi tag bisogna specificare l'altezza
+                Differenza tra pixel e %: I pixel sono un'unità assoluta, non gli interessa minimamente del browser e delle dimensioni, terrà sempre quel valore. Non utilizzeremmo quasi mai i px in larghezza perchè e troppo limitante a livello di schermi. Le % invece fanno riferimento al "genitore" quindi anche alla pagina stessa
+                L'altezza degli elementi in pagina viene data al 90% dei casi del contenuto
+                Sulle sezioni non vengono mai inserite l'altezza ma la facciamo dare dal contenuto
+                la % in altezza non funziona in altezza a meno che non abbia un genitore (es: div)
     -->
 <h1>Hello World</h1>
 <h2 class="section-title">Altro titolo</h2>
@@ -47,6 +64,12 @@
 <h2 class="section-titple">Seconda sezione</h2>
 <h2 id="title-id">Titolo con id</h2>
 
+<div class="square"></div>
+
+<div class="banner-section">
+
+
+</div>
 
 </body>
 </html>
